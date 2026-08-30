@@ -1,0 +1,78 @@
+
+body{
+   background-color:blanchedalmond
+}
+.contenedor1{
+    display: grid;
+    grid-template-columns:1fr 0.1fr 1fr;
+    gap: 5px;
+    
+}
+
+.seccion1{
+    height: 100%;
+    float: left;
+    border: 1px  black;
+    padding: px;
+
+
+}
+.seccion1 h3{
+    text-align: center;
+}
+.seccion1,h3,p{
+    text-align: justify;
+}
+.seccion2{
+    height:100%;
+    border: 1px  black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+.bloke{
+ border: 1px solid rgb(187, 156, 156);
+ padding: 5px;
+}
+h1{
+    text-align: center;
+}
+
+.titulo2{
+    text-align: center;
+}
+
+.imagen1{
+    height: 400px;
+    width: 250px;
+    mask-image:
+    linear-gradient(
+        to right,
+        transparent,
+        black 160%
+    );
+    
+    }
+hr{
+    border: none;
+    border-top: 1px solid black;
+}
+.divicion{
+    width: 1px;
+    margin: 50%;
+    background-color: black;
+    
+}
+.nombre{
+    text-align: center;
+}
+
+
+
